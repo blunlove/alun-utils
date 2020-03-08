@@ -2,9 +2,9 @@
   "name": "alun-utils",
   "version": "1.0.0",
   "description": "",
-  "main": "utils/index.js",
+  "main": "lib/bundle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c rollup.config.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/blunlove/alun-utils/issues"
   },
-  "homepage": "https://github.com/blunlove/alun-utils#readme"
+  "homepage": "https://github.com/blunlove/alun-utils#readme",
+  "dependencies": {
+    "rollup": "^2.0.2"
+  }
 }
